@@ -1,111 +1,199 @@
-<HTML>
-<HEAD>
-<TITLE="Barros Paula Velazquez Lourdes Caren Villabaza">
-</HEAD>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CUIDA KIDS</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/logo.png" sizes="32x32">
+  <style>
+    body {
+      background-image: url('/fondo1.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      color: #333;
+    }
+    nav, footer {
+      background-color: #FFD700; /* Color amarillo */
+    }
+    .logo2 {
+      max-width: 70px;
+      height: auto;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .container p {
+      text-align: justify;
+    }
+    footer {
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.php" class="brand-logo">
+          <div class="logoflex">
+            <img src="logo.png" alt="Logo San Jose" class="logo2">
+          </div>
+        </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.php">Inicio</a></li>
+          <li><a href="#novedades">Cortes</a></li>
+          <li><a href="#vendidos">Tintura</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Categor√≠a<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+      </div>
+    </nav>
 
-<Body background="fondo1.jpg">
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">Literatura</a></li>
+      <li><a href="#!">Cl√°sicos</a></li>
+      <li><a href="#!">Comic</a></li>
+      <li><a href="#!">Novela Gr√°fica</a></li>
+      <li><a href="#!">Juveniles</a></li>
+      <li><a href="#!">Infantiles</a></li>
+      <li><a href="#!">Astrolog√≠a</a></li>
+      <li><a href="#!">Cocina</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">Historia</a></li>
+      <li><a href="#!">Geograf√≠a</a></li>
+      <li><a href="#!">Qu√≠mica</a></li>
+      <li><a href="#!">F√≠sica</a></li>
+    </ul>
 
+    <!-- Sidebar (Sidenav) -->
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <div class="user-view">
+          <a href="#user"><img class="circle" src="img/mundo.png" alt="User Image"></a>
+        </div>
+      </li>
+      <li><a href="index.php">Inicio</a></li>
+      <li><a href="#novedades">Confianza</a></li>
+      <li><a href="#servicio">Servicio</a>a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Categor√≠a<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+  </header>
 
-<p align="center"><IMG SRC="foto6.JPG" width="500" height= "500" border "10">
+  <main>
+    <div class="container" id="novedades">
+      <div class="row center-align">
+                <img src="/logo.png" alt="Logo Cuida Kids" width="350" height="auto">
+      </div>
+      <div class="row">
+        <h2>Cuidado personalizado, confianza garantizada</h2>
+        <p>
+          Somos CUIDA KIDS, un grupo de profesionales dedicadas al cuidado
+          de los m√°s peque√±os, con formaci√≥n en primeros auxilios y educaci√≥n inicial.
+          Ofrecemos un servicio de ni√±eras a domicilio, disponibles 24/7, para garantizar
+          que tus hijos est√©n siempre en las mejores manos.
+        </p>
+        <h2>Sobre Nosotras</h2>
+        <p>
+          Somos un grupo de amigas apasionadas por el bienestar infantil.
+          Decidimos unir nuestras fuerzas y conocimientos para crear CUIDA KIDS, un servicio
+          √∫nico en C√≥rdoba que combina la seguridad, el juego y la educaci√≥n en un solo lugar.
+        </p>
+      </div>
+      <h2 id="servicio">Servicios:</h2>
+      <div class="row">
+        <div class="col s12 m8">
+          <p>
+            - Cuidado Infantil a domicilio: Contamos con ni√±eras calificadas disponibles los 7 d√≠as de las semanas, las 24 horas del d√≠a, adapt√°ndonos a tus necesidades.
+            - Atenci√≥n Personalizada: El equipo de CUIDA KIDS se adapta a las caracter√≠sticas de cada ni√±o, creando actividades personalizadas y juegos did√°cticos que estimulan su desarrollo.
+          </p>
+        </div>
+        <div class="col s12 m4">
+          <img src="foto2.jpg" alt="Imagen de Cuidado Infantil">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <img src="foto5.jpg" alt="Imagen de Actividades Did√°cticas">
+        </div>
+        <div class="col s12 m8">
+          <p>
+            - Cuidado Infantil a domicilio: Contamos con ni√±eras calificadas disponibles los 7 d√≠as de las semanas, las 24 horas del d√≠a, adapt√°ndonos a tus necesidades.
+            - Atenci√≥n Personalizada: El equipo de CUIDA KIDS se adapta a las caracter√≠sticas de cada ni√±o, creando actividades personalizadas y juegos did√°cticos que estimulan su desarrollo.
+          </p>
+        </div>
+      </div>
+    </div>
 
-<p>
+    <div class="container">
+    
+      <div class="row">
+        <h5>C√≥mo Funciona</h5>
+        <p>
+          1. Reserva F√°cil: Cont√°ctanos por WhatsApp o a trav√©s de nuestro Instagram para programar el servicio.<br>
+          2. Movilidad: El costo de transporte de la ni√±era debe ser cubierto por el cliente, garantizando
+          una r√°pida respuesta sin importar la ubicaci√≥n.<br>
+          3. Flexibilidad horaria: Con nuestro equipo de ni√±eras rotativas, podemos atender en cualquier
+          momento del d√≠a o la noche.
+        </p>
+      </div>
+      <div class="row center-align">
+        <img src="foto4.jpg" alt="Imagen de Actividades Did√°cticas">
+      </div>
+        <div class="row">
+        <h5>Valores de la empresa</h5>
+        <p>
+          1. Compromiso: Siempre priorizamos el bienestar y seguridad de los ni√±os.<br>
+          2. Confianza: Nos aseguramos de generar un ambiente de transparencia y profesionalismo.<br>
+          3. Flexibilidad: Nos adaptamos a los horarios y necesidades de cada familia.<br>
+          4. Diversi√≥n: Creemos que aprender y jugar van de la mano, por lo que dise√±amos actividades
+          did√°cticas que estimulan el desarrollo infantil.
+        </p>
+      </div>
+    </div>
+  </main>
 
-<h1 align="center"> Cuidado personalizado, confianza garantizada </h1>
- 
-<h2 align="center"> Somos CUIDA KIDS, un grupo de profesionales dedicadas al cuidado<br>
-de los m·s pequeÒos,con formaciÛn en primeros auxilios y educaciÛn inicial.<br>
-Ofrecemos un servicio de niÒeras a domicilio, disponibles 24/7, para garantizar <br>
-que tushijos estÈn siempre en las mejores manos.
-</h2>
-<p>
+  <footer class="">
+    <div class="container">
+      <div class="row center">
+        <div class="col l6 s12">
+          <a href="index.php" class="brand-logo">
+            <div class="logofooterDiv">
+              <img src="logo.png" alt="Logo San Jose" class="logofooter" width="150" height="auto">
+              <h5 class="black-text text-accent-3">CUIDA KIDS</h5>
+            </div>
+          </a>
+          <p>Tel: 3516710756</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h6>Contacto</h6>
+          <ul>
+            <li><a href="#!" class="grey-text text-lighten-3">Email 1</a></li>
+            <li><a href="#!" class="grey-text text-lighten-3">Email 2</a></li>
+            <li><a href="#!" class="grey-text text-lighten-3">Instagram</a></li>
+            <li><a href="#!" class="grey-text text-lighten-3">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-<h1 align="center"> Sobre Nosotras</h1>
-
-<h2 align="center"> Somos un grupo de amigas apasionadas por el bienestar infantil.<br>
-Decidimos unir nuestras fuerzas y conocimientos para crear CUIDA KIDS, un servicio <br>
-˙nico en CÛrdoba que combina la seguridad, el juego y la educaciÛn en un solo lugar <br>
-</h2>
-<p>
-
-<h1> Servicios:  </h1>
-<p>
-<h2>
-
-<p>
-
-
-- Cuidado Infantil a domicilio: Contamos con niÒeras calificadas disponibles
- los 7 dÌas de las semanas, las 24 horas del dia, adapt·ndonos a tus necesidades.
-<p>
-
-
-- AtenciÛn Personalizada: El equipo de CUIDA KIDS se adapta a las
-caracterÌsticas de cada de niÒo, creando actividades personalizadas
- y juego did·cticos que estimulan su desarrollo 
- 
-<p align="center"><IMG SRC="foto2.JPG" width="400" height= "300" border "10">
-<IMG SRC="foto5.JPG" width="400" height= "300" border "10">
-
-
-</h2>
-
-<h1> Como Funciona </h1>
-
-<h2>
-
-1. Reseva Facil: Cont·ctanos por WhatsApp o a travÈs de nuestro Instagram para programar el servicio 
-<br>
-2. Movilidad: El costo de transporte de la niÒera debe ser cubierto por el cliente, garantizando<br>
-una rapida respuesta sin importar la ubicaciÛn
-<br>
-3. Flexibilidad horaria: Con nuestro equipo de niÒeras rotativas, podemos atender en cualquier <br>
-del dia o la noche 
-
-<p>
-</h2>
-
-<h1> Valores de la empresa </h1>
-
-<h2>
-
-1. Compromiso: Siempre priorizamos el bienestar y seguridad de los niÒos. 
-<br>
-2. Confianza: Nos aseguramos de generar un ambiente de trasnparencia y profesionalismo.<br>
-3. Flexibilidad: Nos adaptamos a los horarios y necesidades de cada familia.
-<br>
-4. DiversiÛn: Creemos que aprender y jugar van de la manos, por lo que diseÒamos actividades<br>
-did·cticas que estimulan el desarrollo intantil
-
-<p align="left"><IMG SRC="foto4.JPG" width="800" height= "500" border "10">
-
-</h2>
-
-<h1> Contacto: </h1>
-
-<h2>
-
-Telefono: 3516710756
-
-<p>
-
-<A HREF="MAILTO: cuidakidss@gmail.com"> Coreo Electronico Cuida Kids </A> </P>
-
-<p>
-
-Instagram:_cuida.kids
-
-</h2>
-
-<p align="left"><IMG SRC="foto3.JPG" width="500" height= "450" border "10">
-
-<p>
-
-<h2>
-
-°EscrÌbenos o ll·manos para saber m·s! Estamos siempre listas para cuidar a los tuyos.
-
-</h2>
-
-
-
-</HTML>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const elemsDropdown = document.querySelectorAll('.dropdown-trigger');
+      const instancesDropdown = M.Dropdown.init(elemsDropdown);
+      
+      const elemsSidenav = document.querySelectorAll('.sidenav');
+      const instancesSidenav = M.Sidenav.init(elemsSidenav);
+    });
+  </script>
+</body>
+</html>
